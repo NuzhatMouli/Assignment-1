@@ -7,6 +7,7 @@
 
 .header {
     background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png);
+    width: 1600px;
 
 }
 
@@ -58,10 +59,28 @@ nav {
 
 
     max-width: 580px;
+    position: 267px 309px;
 }
 
 .banner-tittle {
     font-weight: 600;
-    font-size: 45px;
+    font-size: 40px;
+    max-width: 1440px;
+    max-height: 698px;
 
 }
+
+/* Action Section Styles*/
+.Action-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action-header {
+    display: block;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.img-1 {}
