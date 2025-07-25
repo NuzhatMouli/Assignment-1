@@ -8,6 +8,7 @@
 .header {
     background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png);
     width: 1600px;
+    /*background-size: cover;*/
 
 }
 
@@ -75,12 +76,36 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 50px 80px 80px 50px;
 }
 
 .action-header {
     display: block;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 26px;
 }
 
-.img-1 {}
+.action-para {
+    color: #97969e;
+}
+
+.img-1 {
+    height: 328px;
+    width: 403px;
+    border-radius: 50px;
+}
+
+.user-section {
+    background-color: #c2c1ef;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+    padding: 50px 50px 50px 50px;
+    border-radius: 40px;
+    height: fit-content;
+}
+
+.user-header {
+    font-size: xx-large;
+    justify-content: center;
+}
